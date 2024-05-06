@@ -1,0 +1,78 @@
+.hero{
+  background-image: url(./../../img/bg-1.webp), url(./../../img/bg-2.webp); 
+  background-repeat: no-repeat; 
+  background-position: top left, bottom right;
+  background-size: contain;
+  padding-top: 171px;
+  padding-bottom: 116px;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 119%;
+    text-align: center;
+    color: #000;  
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 36px;
+
+}
+.hero__tex{
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 156%;
+ letter-spacing: 0.03em;
+ text-align: center;
+ color: $main-text;
+ margin-bottom: 41px;
+}
+.hero__button{
+ border-radius: 122px;
+background-color:$contrast-color ;
+display:block;
+font-weight: 700;
+font-size: 18px;
+color:$title-light ;
+margin: 0 auto;
+line-height: 150%;
+border: none;
+width: 260px;
+text-align: center;
+padding-top: 23px;
+padding-bottom: 23px;
+}
+.video{
+    background-image: url(./../../img/bgindonesia.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 83px;
+    padding-bottom: 36px;
+}
+.video__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+text-align: center;
+color:white;
+}
+.video_item{
+ text-align: center;
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+color:$title-light;
+}
+.video__text{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+text-align: center;
+color:$title-light;
+}
+.photo{
+    width: 314px;
+    height: 192px;
+display: block;
+margin: 0 auto;
+}

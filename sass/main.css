@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 314px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+  }
+}
+.hero {
+  background-image: url(./../../img/bg-1.webp), url(./../../img/bg-2.webp);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: contain;
+  padding-top: 171px;
+  padding-bottom: 116px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 119%;
+  text-align: center;
+  color: #000;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 36px;
+}
+
+.hero__tex {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6F7787;
+  margin-bottom: 41px;
+}
+
+.hero__button {
+  border-radius: 122px;
+  background-color: #DD2242;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  line-height: 150%;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.video {
+  background-image: url(./../../img/bgindonesia.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 83px;
+  padding-bottom: 36px;
+}
+
+.video__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 115%;
+  text-align: center;
+  color: white;
+}
+
+.video_item {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.video__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.img {
+  width: 314px;
+  height: 176px;
+  display: block;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
